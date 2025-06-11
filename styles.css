@@ -278,10 +278,53 @@ p {
   max-width: 600px;
 }
 
+/* CTA Buttons */
 .cta-buttons {
   display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+  flex-wrap: nowrap;
+}
+
+.hero .cta-buttons {
+  margin: 3rem 0 0;
+  flex-direction: row;
+  max-width: 300px;
+}
+
+.cta-buttons .btn {
+  min-width: 180px;
+  padding: 0.875rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.cta-buttons .btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+}
+
+.cta-buttons .btn-primary:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+}
+
+.cta-buttons .btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.cta-buttons .btn-outline:hover {
+  background-color: rgba(37, 99, 235, 0.05);
+  transform: translateY(-2px);
 }
 
 .hero-image {
@@ -491,6 +534,48 @@ p {
   text-align: center;
 }
 
+.cta .cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.cta .btn {
+  min-width: 180px;
+  padding: 0.875rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.cta .btn-primary {
+  background-color: white;
+  color: var(--primary);
+  border: 2px solid white;
+}
+
+.cta .btn-primary:hover {
+  background-color: transparent;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cta .btn-outline {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.cta .btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
 .cta h2 {
   color: white;
   font-size: 2.5rem;
@@ -528,9 +613,15 @@ p {
 }
 
 @media (max-width: 768px) {
-  .cta-buttons {
+  .cta .cta-buttons {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+  }
+  
+  .cta .btn {
+    width: 100%;
+    max-width: 280px;
   }
   
   .cta-buttons .btn {
