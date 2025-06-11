@@ -3,160 +3,227 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skill Radar | Unlock Your Organization's Hidden Talent</title>
+  <title>SkillRadar | Modern Talent Intelligence for HR Teams</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Navigation -->
-  <nav>
+  <nav class="navbar">
     <div class="container nav-container">
       <a href="#" class="logo">
         <i class="fas fa-bullseye"></i>
-        Skill Radar
+        SkillRadar
       </a>
       <div class="nav-links">
         <a href="#features">Features</a>
         <a href="#benefits">Benefits</a>
         <a href="#testimonials">Testimonials</a>
+        <a href="#pricing">Pricing</a>
       </div>
       <div class="nav-actions">
-        <a href="#" class="cta-button secondary">Log In</a>
-        <a href="#" class="cta-button">Get Started</a>
+        <a href="#" class="btn btn-outline">Log In</a>
+        <a href="#demo" class="btn btn-primary">Get Demo</a>
       </div>
+      <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <div class="container hero-content">
-      <h1>Unlock Your Organization's Hidden Talent</h1>
-      <p>Map employee skills, guide their growth, and build stronger teams with Skill Radar's powerful talent intelligence platform.</p>
-      <div class="hero-buttons">
-        <a href="#" class="cta-button">Start Free Trial</a>
-        <a href="#" class="cta-button secondary">Request a Demo</a>
+  <header class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="badge">TRUSTED BY HR TEAMS WORLDWIDE</span>
+        <h1>Unlock Your Organization's Hidden Talent</h1>
+        <p class="lead">Transform how you identify, develop, and retain top talent with SkillRadar's intelligent skills platform.</p>
+        <div class="cta-buttons">
+          <a href="#demo" class="btn btn-primary btn-lg">Request Demo</a>
+          <a href="#features" class="btn btn-outline btn-lg">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Modern HR Analytics Dashboard showing employee skills, performance metrics, and growth insights">
       </div>
     </div>
-  </section>
-
+  </header>
   <!-- Features Section -->
-  <section id="features" class="section">
+  <section id="features" class="features">
     <div class="container">
-      <div class="section-title">
-        <h2>How Skill Radar Works</h2>
-        <p>Transform how you understand and develop your team's skills with our intuitive platform</p>
+      <div class="section-header">
+        <span class="section-subtitle">FEATURES</span>
+        <h2 class="section-title">Everything You Need to Build a Skills-First Organization</h2>
+        <p class="section-description">Powerful tools designed specifically for HR and talent development teams</p>
       </div>
+
       <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-upload"></i>
-          </div>
-          <h3>1. Upload Employee Profiles</h3>
-          <p>Import resumes or create profiles manually. Our AI extracts skills automatically, saving you hours of manual work.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-id-card"></i>
-          </div>
-          <h3>2. Build Skill Cards</h3>
-          <p>Employees get structured, editable skill profiles that showcase their expertise and growth areas.</p>
-        </div>
         <div class="feature-card">
           <div class="feature-icon">
             <i class="fas fa-search"></i>
           </div>
-          <h3>3. Discover Talent</h3>
-          <p>Search across your organization by skill, team, or growth goals to find the perfect match for any role or project.</p>
+          <h3>Skill Discovery</h3>
+          <p>Uncover hidden skills across your organization with our advanced AI-powered search and matching capabilities.</p>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Stats Section -->
-  <section class="stats">
-    <div class="container">
-      <div class="stats-grid">
-        <div class="stat-item">
-          <h3>85%</h3>
-          <p>Faster internal hiring</p>
-        </div>
-        <div class="stat-item">
-          <h3>3.5x</h3>
-          <p>More engaged employees</p>
-        </div>
-        <div class="stat-item">
-          <h3>90%</h3>
-          <p>Reduced hiring costs</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Benefits Section -->
-  <section id="benefits" class="section">
-    <div class="container">
-      <div class="section-title">
-        <h2>Why Teams Love Skill Radar</h2>
-        <p>Join hundreds of organizations transforming their talent management</p>
-      </div>
-      <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon">
-            <i class="fas fa-search-plus"></i>
+            <i class="fas fa-project-diagram"></i>
           </div>
-          <h3>Find Hidden Experts</h3>
-          <p>Discover untapped skills within your organization before looking externally.</p>
+          <h3>Career Pathing</h3>
+          <p>Create clear growth paths for employees based on their skills, aspirations, and business needs.</p>
         </div>
+
         <div class="feature-card">
           <div class="feature-icon">
             <i class="fas fa-chart-line"></i>
           </div>
-          <h3>Boost Engagement</h3>
-          <p>Show clear career paths and growth opportunities to keep your team motivated.</p>
+          <h3>Analytics Dashboard</h3>
+          <p>Gain powerful insights into your organization's skills landscape with our comprehensive analytics.</p>
         </div>
+
         <div class="feature-card">
           <div class="feature-icon">
-            <i class="fas fa-lightbulb"></i>
+            <i class="fas fa-users"></i>
           </div>
-          <h3>Data-Driven Decisions</h3>
-          <p>Make promotion and hiring decisions backed by real skill data, not just gut feeling.</p>
+          <h3>Team Insights</h3>
+          <p>Understand team capabilities and identify skill gaps at a glance with intuitive visualizations.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Learning Integration</h3>
+          <p>Seamlessly connect with leading learning platforms to close skill gaps effectively.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Enterprise Security</h3>
+          <p>Bank-grade security and compliance to keep your organization's sensitive data protected.</p>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="section testimonials">
+  <!-- Benefits Section -->
+  <section id="benefits" class="benefits">
     <div class="container">
-      <div class="section-title">
-        <h2>What People Are Saying</h2>
-        <p>Don't just take our word for it</p>
-      </div>
-      <div class="testimonial-grid">
-        <div class="testimonial-card">
-          <p class="testimonial-text">"It's like an internal LinkedIn — but way more useful. We've saved thousands in hiring costs by finding hidden talent within our own teams."</p>
-          <div class="testimonial-author">
-            <div class="author-avatar">
-              <i class="fas fa-user"></i>
+      <div class="benefits-grid">
+        <div class="benefits-content">
+          <span class="section-subtitle">BENEFITS</span>
+          <h2 class="section-title">Why HR Leaders Choose SkillRadar</h2>
+          <p class="section-description">Transform your talent strategy and drive business impact</p>
+          
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="fas fa-check-circle"></i>
             </div>
-            <div class="author-info">
+            <div class="benefit-text">
+              <h3>Reduce Hiring Costs</h3>
+              <p>Fill critical roles faster by identifying qualified internal candidates, reducing time-to-hire by 40% and external hiring costs by up to 50%.</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="benefit-text">
+              <h3>Boost Employee Retention</h3>
+              <p>Employees with clear growth paths are 3.5x more likely to stay with your company. Reduce turnover and preserve institutional knowledge.</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="benefit-text">
+              <h3>Future-Proof Your Workforce</h3>
+              <p>Identify emerging skill gaps and proactively develop the capabilities your organization needs to stay competitive.</p>
+            </div>
+          </div>
+
+          <a href="#demo" class="btn btn-primary">See How It Works</a>
+        </div>
+        <div class="benefits-image">
+          <img src="https://picsum.photos/600/700?random=2" alt="Team collaboration and professional development in the workplace">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">TESTIMONIALS</span>
+        <h2 class="section-title">Trusted by HR Leaders</h2>
+        <p class="section-description">See what our customers say about SkillRadar</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"SkillRadar has revolutionized how we approach talent development. We've reduced our external hiring costs by 47% by better utilizing our existing workforce."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson">
+            <div>
               <h4>Sarah Johnson</h4>
-              <p>HR Director, TechCorp</p>
+              <p>VP of HR, TechCorp</p>
             </div>
           </div>
         </div>
+
         <div class="testimonial-card">
-          <p class="testimonial-text">"We used to promote based on gut feel. Now we have real skill signals that help us make objective decisions about growth and promotions."</p>
-          <div class="testimonial-author">
-            <div class="author-avatar">
-              <i class="fas fa-user"></i>
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-            <div class="author-info">
+            <p class="testimonial-text">"The analytics and insights we get from SkillRadar have been game-changing for our talent strategy. We can now make data-driven decisions about skills development."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+            <div>
               <h4>Michael Chen</h4>
-              <p>Engineering Lead, NextGen</p>
+              <p>Director of Talent, InnovateCo</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="testimonial-text">"Implementation was seamless and the team was incredibly supportive. Our employees love having visibility into their career growth opportunities."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya Patel">
+            <div>
+              <h4>Priya Patel</h4>
+              <p>Head of L&D, GrowthLabs</p>
             </div>
           </div>
         </div>
@@ -166,56 +233,144 @@
 
   <!-- CTA Section -->
   <section class="cta">
-    <div class="cta-content">
-      <h2>Ready to unlock your team's potential?</h2>
-      <p>Join leading companies using Skill Radar to build better teams through skills intelligence.</p>
-      <div class="hero-buttons">
-        <a href="#" class="cta-button">Start Free Trial</a>
-        <a href="#" class="cta-button secondary">Schedule a Demo</a>
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Transform Your Talent Strategy?</h2>
+        <p>Join leading organizations that trust SkillRadar to build future-ready workforces.</p>
+        <div class="cta-buttons">
+          <a href="#demo" class="btn btn-primary btn-lg">Request a Demo</a>
+          <a href="#" class="btn btn-outline btn-lg">Contact Sales</a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <div class="container">
       <div class="footer-content">
-        <div class="footer-column">
-          <h3>Skill Radar</h3>
-          <p>Empowering organizations to build better teams through skills intelligence.</p>
+        <div class="footer-about">
+          <a href="#" class="logo">
+            <i class="fas fa-bullseye"></i>
+            SkillRadar
+          </a>
+          <p>Empowering HR teams to build future-ready organizations through intelligent skills management.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
         </div>
-        <div class="footer-column">
-          <h3>Product</h3>
-          <ul class="footer-links">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Integrations</a></li>
-            <li><a href="#">Updates</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3>Company</h3>
-          <ul class="footer-links">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3>Resources</h3>
-          <ul class="footer-links">
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">API Docs</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Status</a></li>
-          </ul>
+
+        <div class="footer-links">
+          <div class="footer-links-group">
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#">Integrations</a>
+          </div>
+
+          <div class="footer-links-group">
+            <h4>Company</h4>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="footer-links-group">
+            <h4>Resources</h4>
+            <a href="#">Help Center</a>
+            <a href="#">Webinars</a>
+            <a href="#">Case Studies</a>
+            <a href="#">API Documentation</a>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2023 Skill Radar. All rights reserved.</p>
+        <p>&copy; 2023 SkillRadar. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
       </div>
     </div>
   </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+      const navLinks = document.querySelector('.nav-links');
+      
+      if (mobileMenuBtn && navLinks) {
+        // Set initial aria-expanded state
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        mobileMenuBtn.setAttribute('aria-label', 'Toggle navigation menu');
+        
+        mobileMenuBtn.addEventListener('click', function() {
+          const isExpanded = navLinks.classList.toggle('active');
+          this.setAttribute('aria-expanded', isExpanded);
+        });
+      }
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          const targetId = this.getAttribute('href');
+          if (targetId === '#' || targetId === '#!') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            e.preventDefault();
+            
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: 'smooth'
+            });
+            
+            // Close mobile menu if open
+            if (navLinks && navLinks.classList.contains('active')) {
+              navLinks.classList.remove('active');
+              mobileMenuBtn.setAttribute('aria-expanded', 'false');
+              
+              // Move focus to the target element for better accessibility
+              setTimeout(() => {
+                targetElement.setAttribute('tabindex', '-1');
+                targetElement.focus();
+                targetElement.removeAttribute('tabindex');
+              }, 500);
+            }
+          }
+        });
+      });
+
+      // Add animation on scroll
+      const animateOnScroll = () => {
+        const elements = document.querySelectorAll('.animate-fade-in');
+        elements.forEach(element => {
+          const elementTop = element.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+          
+          if (elementTop < windowHeight - 100) {
+            element.style.opacity = '1';
+            element.style.transform = 'translateY(0)';
+          }
+        });
+      };
+
+      // Initial check
+      animateOnScroll();
+      
+      // Check on scroll with debounce
+      let isScrolling;
+      window.addEventListener('scroll', () => {
+        window.clearTimeout(isScrolling);
+        isScrolling = setTimeout(animateOnScroll, 50);
+      }, { passive: true });
+    });
+  </script>
 </body>
 </html>
